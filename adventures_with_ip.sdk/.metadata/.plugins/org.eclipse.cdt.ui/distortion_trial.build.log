@@ -1,0 +1,6 @@
+00:19:32 **** Incremental Build of configuration Debug for project distortion_trial ****
+make all 
+make: Nothing to be done for `all'.
+
+00:19:32 Build Finished (took 250ms)
+

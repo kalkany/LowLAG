@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:37:43 MDT 2015
+# 
+# Start of session at: Mon May 25 20:43:18 2020
+# Process ID: 17352
+# Log file: C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/webtalk/webtalk.log
+# Journal file: C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,446 @@
+16:07:53 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+16:08:00 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+16:08:10 INFO  : XSDB server has started successfully.
+16:20:07 INFO  : Saving repository preferences.
+16:20:07 INFO  : Reading in cores from local repositories: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+16:20:07 INFO  : Cleaning BSP projects in the workspace.
+16:20:31 INFO  : No changes in MSS file content so not generating sources.
+16:29:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:29:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+16:29:15 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+16:29:50 INFO  : ps7_init is completed.
+16:29:50 INFO  : ps7_post_config is completed.
+16:29:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:01:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:41:48 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+18:41:49 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+18:41:50 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+18:41:50 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1590334762315,  Project:1590325461856
+18:41:50 INFO  : The hardware specification for project 'ip_design_wrapper_hw_platform_0' is different from C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+18:41:50 INFO  : Copied contents of C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf into \ip_design_wrapper_hw_platform_0\system.hdf.
+18:41:50 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+18:41:52 INFO  : XSDB server has started successfully.
+18:41:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:41:57 INFO  : 
+18:41:58 INFO  : Updating hardware inferred compiler options for adventures_with_ip.
+18:41:58 INFO  : Clearing existing target manager status.
+18:42:16 INFO  : No changes in MSS file content so not generating sources.
+18:46:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:46:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+18:46:13 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+18:47:08 INFO  : ps7_init is completed.
+18:47:08 INFO  : ps7_post_config is completed.
+18:47:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:47:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:49:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:39:13 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+19:39:16 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+19:39:18 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+19:39:18 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1590338212953,  Project:1590334762315
+19:39:18 INFO  : The hardware specification for project 'ip_design_wrapper_hw_platform_0' is different from C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+19:39:18 INFO  : Copied contents of C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf into \ip_design_wrapper_hw_platform_0\system.hdf.
+19:39:19 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+19:39:21 INFO  : XSDB server has started successfully.
+19:39:22 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:39:25 INFO  : 
+19:39:26 INFO  : Updating hardware inferred compiler options for adventures_with_ip.
+19:39:26 INFO  : Clearing existing target manager status.
+19:39:27 INFO  : Closing and re-opening the MSS file of ther project adventures_with_ip_bsp
+19:39:27 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:39:54 INFO  : No changes in MSS file content so not generating sources.
+19:40:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:40:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+19:40:56 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+19:41:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:44:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:44:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+19:44:15 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+19:44:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:44:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:44:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:45:26 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+19:45:27 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+19:45:28 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+19:45:29 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+19:45:31 INFO  : XSDB server has started successfully.
+19:47:26 INFO  : No changes in MSS file content so not generating sources.
+19:48:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:49:47 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:51:26 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+19:51:30 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+19:51:31 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+19:51:33 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+19:51:35 INFO  : XSDB server has started successfully.
+19:52:37 INFO  : No changes in MSS file content so not generating sources.
+19:53:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:53:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+19:53:37 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+19:53:46 INFO  : ps7_init is completed.
+19:53:47 INFO  : ps7_post_config is completed.
+19:53:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:55:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:55:46 INFO  : No changes in MSS file content so not generating sources.
+19:56:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:56:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:56:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:57:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:57:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+19:57:12 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+19:57:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:57:40 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:03:51 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+20:03:54 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+20:03:55 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+20:04:00 INFO  : XSDB server has started successfully.
+20:04:23 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+20:05:15 INFO  : No changes in MSS file content so not generating sources.
+20:07:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:07:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+20:07:07 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+20:07:39 INFO  : ps7_init is completed.
+20:07:40 INFO  : ps7_post_config is completed.
+20:07:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:10:14 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:26:11 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+21:26:14 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+21:26:16 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+21:26:16 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1590340855190,  Project:1590338212953
+21:26:16 INFO  : The hardware specification for project 'ip_design_wrapper_hw_platform_0' is different from C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+21:26:16 INFO  : Copied contents of C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf into \ip_design_wrapper_hw_platform_0\system.hdf.
+21:26:17 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+21:26:19 INFO  : XSDB server has started successfully.
+21:26:20 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:26:23 INFO  : 
+21:26:24 INFO  : Updating hardware inferred compiler options for adventures_with_ip.
+21:26:24 INFO  : Clearing existing target manager status.
+21:26:25 INFO  : Closing and re-opening the MSS file of ther project adventures_with_ip_bsp
+21:26:27 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:29:57 INFO  : No changes in MSS file content so not generating sources.
+21:34:28 INFO  : Saving hardware specification preferences.
+21:34:28 INFO  : Starting the monitor for source hardware specification changes.
+21:35:05 INFO  : Saving hardware specification preferences.
+21:35:05 INFO  : Starting the monitor for source hardware specification changes.
+21:35:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:35:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+21:35:26 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+21:35:47 INFO  : ps7_init is completed.
+21:35:48 INFO  : ps7_post_config is completed.
+21:35:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:36:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:58:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:30:18 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+18:30:21 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+18:30:23 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+18:30:24 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1590419776964,  Project:1590340855190
+18:30:24 INFO  : The hardware specification for project 'ip_design_wrapper_hw_platform_0' is different from C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+18:30:24 INFO  : Copied contents of C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf into \ip_design_wrapper_hw_platform_0\system.hdf.
+18:30:28 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:30:33 INFO  : XSDB server has started successfully.
+18:30:49 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+18:30:51 INFO  : 
+18:30:52 INFO  : Updating hardware inferred compiler options for adventures_with_ip.
+18:30:52 INFO  : Clearing existing target manager status.
+18:39:40 INFO  : No changes in MSS file content so not generating sources.
+19:21:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:21:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+19:21:50 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+19:22:04 INFO  : ps7_init is completed.
+19:22:04 INFO  : ps7_post_config is completed.
+19:22:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:47:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:47:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:28:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:43:19 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:10:21 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+19:10:23 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+19:10:25 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+19:10:27 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1590768497527,  Project:1590419776964
+19:10:27 INFO  : The hardware specification for project 'ip_design_wrapper_hw_platform_0' is different from C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+19:10:27 INFO  : Copied contents of C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf into \ip_design_wrapper_hw_platform_0\system.hdf.
+19:10:32 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:10:34 INFO  : XSDB server has started successfully.
+19:10:55 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+19:10:57 INFO  : 
+19:10:58 INFO  : Updating hardware inferred compiler options for distortion_trial.
+19:10:58 INFO  : Clearing existing target manager status.
+19:17:09 INFO  : No changes in MSS file content so not generating sources.
+19:18:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:18:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+19:18:24 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+19:18:34 INFO  : ps7_init is completed.
+19:18:34 INFO  : ps7_post_config is completed.
+19:18:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:21:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:22:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:41:31 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:41:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:42:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:43:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:43:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:44:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:45:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:46:44 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+19:46:44 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 64"
+19:46:44 ERROR : Disconnect target failed.
+19:53:26 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1073)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:483)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:585)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:294)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+19:53:26 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+19:53:49 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1073)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:483)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:585)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:294)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+19:53:49 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+19:54:30 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1073)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:483)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:585)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:294)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+19:54:30 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+19:54:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:54:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+19:54:55 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+19:55:00 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1073)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:483)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:585)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:294)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+19:55:00 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+19:56:08 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1073)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:483)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:585)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:294)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+19:56:08 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+19:56:34 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+19:56:34 ERROR : Unable to disconnect from existing targets
+java.lang.RuntimeException: No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:327)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:306)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:60)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+19:56:34 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:57:08 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+19:57:09 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+19:57:10 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+19:57:11 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+19:57:13 INFO  : XSDB server has started successfully.
+19:57:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:57:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+19:57:44 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+19:57:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:00:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:00:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:01:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:03:48 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:03:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:05:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:07:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:01:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:41:53 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+17:41:56 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+17:41:57 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:41:58 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1592663640089,  Project:1590768497527
+17:41:58 INFO  : The hardware specification for project 'ip_design_wrapper_hw_platform_0' is different from C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+17:41:58 INFO  : Copied contents of C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf into \ip_design_wrapper_hw_platform_0\system.hdf.
+17:42:03 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:42:08 INFO  : XSDB server has started successfully.
+17:42:27 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+17:42:30 INFO  : 
+17:42:31 INFO  : Updating hardware inferred compiler options for distortion_trial.
+17:42:31 INFO  : Clearing existing target manager status.
+17:43:07 INFO  : No changes in MSS file content so not generating sources.
+17:49:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:49:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+17:49:08 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+17:50:10 INFO  : ps7_init is completed.
+17:50:10 INFO  : ps7_post_config is completed.
+17:50:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:59:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:59:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+17:59:48 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+18:00:20 INFO  : ps7_init is completed.
+18:00:20 INFO  : ps7_post_config is completed.
+18:00:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:06:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:15:52 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+20:15:55 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+20:15:56 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+20:15:57 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1592845349380,  Project:1592663640089
+20:15:57 INFO  : The hardware specification for project 'ip_design_wrapper_hw_platform_0' is different from C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+20:15:58 INFO  : Copied contents of C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf into \ip_design_wrapper_hw_platform_0\system.hdf.
+20:16:02 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:16:08 INFO  : XSDB server has started successfully.
+20:16:25 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+20:16:27 INFO  : 
+20:16:28 INFO  : Updating hardware inferred compiler options for distortion_trial.
+20:16:28 INFO  : Clearing existing target manager status.
+20:17:34 INFO  : No changes in MSS file content so not generating sources.
+20:21:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:21:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+20:21:14 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+20:22:52 INFO  : ps7_init is completed.
+20:22:52 INFO  : ps7_post_config is completed.
+20:22:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:38:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:38:39 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:39:10 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+20:39:12 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+20:39:13 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+20:39:13 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+20:39:15 INFO  : XSDB server has started successfully.
+20:39:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:39:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+20:39:26 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+20:39:36 INFO  : ps7_init is completed.
+20:39:36 INFO  : ps7_post_config is completed.
+20:39:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:39:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:24:38 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:13:05 INFO  : Processing command line option -hwspec C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper.hdf.
+00:13:07 INFO  : Checking for hwspec changes in the project ip_design_wrapper_hw_platform_0.
+00:13:08 INFO  : Launching XSDB server: xsdb.bat -s D:/Xilinx2015/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+00:13:12 INFO  : Restoring local repository preferences: 
+		 C:\Zynk_Book\ip_repo\ac.uk_user_lms_pcore_1.0
+		 C:\Zynk_Book\ip_repo\xilinx_com_hls_nco_1_0
+		 C:\Zynk_Book\ip_repo\led_controller_1.0_1
+00:13:12 INFO  : XSDB server has started successfully.
+00:13:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:13:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A3983C" && level==0} -index 1' command is executed.
+00:13:25 INFO  : FPGA configured successfully with bitstream "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.sdk/ip_design_wrapper_hw_platform_0/ip_design_wrapper.bit"
+00:13:38 INFO  : ps7_init is completed.
+00:13:38 INFO  : ps7_post_config is completed.
+00:13:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:13:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:18:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:18:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:19:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:22:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

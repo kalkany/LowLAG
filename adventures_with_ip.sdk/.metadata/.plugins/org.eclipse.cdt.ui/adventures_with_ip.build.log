@@ -1,0 +1,31 @@
+18:40:10 **** Auto Build of configuration Debug for project adventures_with_ip ****
+make all 
+'Building file: ../src/adventures_with_ip.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -I../../adventures_with_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.d" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+'Finished building: ../src/adventures_with_ip.c'
+' '
+'Building file: ../src/audio.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -I../../adventures_with_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.d" -o "src/audio.o" "../src/audio.c"
+'Finished building: ../src/audio.c'
+' '
+'Building file: ../src/ip_functions.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -I../../adventures_with_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.d" -o "src/ip_functions.o" "../src/ip_functions.c"
+'Finished building: ../src/ip_functions.c'
+' '
+'Building target: adventures_with_ip.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../adventures_with_ip_bsp/ps7_cortexa9_0/lib -o "adventures_with_ip.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: adventures_with_ip.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size adventures_with_ip.elf  |tee "adventures_with_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33280	   1208	  22660	  57148	   df3c	adventures_with_ip.elf
+'Finished building: adventures_with_ip.elf.size'
+' '
+
+18:40:12 Build Finished (took 2s.557ms)
+

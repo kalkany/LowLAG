@@ -1,0 +1,12 @@
+
+****** Webtalk v2015.1 (64-bit)
+  **** SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+  **** IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Zynk_Book/adventures_with_ip/adventures_with_ip.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 1286499978 -regid "211820289_0_0_240" -xml C:/Zynk_Book/adventures_with_ip/adventures_with_ip.hw/webtalk/usage_statistics_e..."
+    (file "C:/Zynk_Book/adventures_with_ip/adventures_with_ip.hw/webtalk/labtool_webtalk.tcl" line 26)
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 08 11:28:25 2020...
